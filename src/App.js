@@ -1,11 +1,12 @@
-import './App.css';
-import UseEffectBasics from './UseEffectBasics';
-
+import React from 'react';
+import Modal from './Modal';
+import Home from './Home';
 function App() {
   return (
-    <div className="App">
-      <UseEffectBasics />
-    </div>
+    <>
+      <Home />
+      <Modal />
+    </>
   );
 }
 
